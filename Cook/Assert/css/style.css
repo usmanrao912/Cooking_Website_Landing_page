@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* nav-bar */
+.textbre::before
+{
+    content: "";
+    position: absolute;
+    top: 15px;
+    width:2px;
+    height: 16px;
+    background-color: #FFDBB8;
+}
+.nav-cooking-font 
+{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cook-faimly h3
+{
+    color: #D27722;
+    font-family: poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+.nav-image img
+{
+    width: 25px;
+}
+.nav-item a
+{
+    margin-left: -10px!important;
+}
+.lineusing
+{
+    border-left: 2px solid #FFDBB8;
+    height: 15px;   
+}
+
+.login
+{
+    border-radius: 4px;
+    background: var(--primary, #D27722);
+    padding-top: 3px;
+}
+.login img
+{
+    margin-top: -6px;
+}
+.info img
+{
+    margin-top: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+
+/* master-main */
+.colobuttonn , .talent
+{
+    transition: filter 0.3s ease;
+}
+.buttonn :hover
+{
+    filter: brightness(1.1);
+}
+
+.master-text p
+{
+    font-family: poppins;
+    font-size: 14px;
+    opacity:0.9;
+
+}
+.master-text h1
+{
+    font-size: 53px!important;
+    font-family: poppins;
+}
+.play-button img , .show-more img
+{
+    width: 23px;
+    height: 22px;
+}
+.play-button p
+{
+    font-weight: 500;
+}
+
+.btn1
+{
+    background: #D27722;
+    padding: 6px;
+    border-color: #D27722;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.btn2 
+{
+    border: 2px solid #D27722;
+    color: #D27722;
+    padding:6px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.women-image img
+{
+    width: 90%;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.2);
+  }
+.women-image-border
+{
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/* Talent */
+.talent-margin
+{
+    margin-top: 150px;
+}
+.talent , .vegan
+{
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten, #FFDBB8);
+    background: var(--secondary-background, #FFFDF4);
+}
+.rating img , .twenty img
+{
+    width: 33%;
+    margin-top: 40px;
+}
+.margin
+{
+    margin-left: 80px;
+}
+.talent{
+    position: relative;
+}
+.talent::before{
+    content: "";
+    width:80%;
+    height: 1px;
+    /* background-color: #FFDBB8; */
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+    right: -10.5rem;
+}
+.talent::after{
+    content: "";
+    width:80%;
+    height: 1px;
+    /* background-color: #FFDBB8; */
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+    left: -10.5rem;
+}
+
+
+/* vegan */
+.vegan{
+    background-color: white;
+}
+.vegen-text h5
+{
+    font-weight: 700;
+    font-family: poppins;
+}
+.vegen-text p
+{
+    font-size: 11px;
+    font-family: poppins;
+    font-weight: 200;
+}
+
+/* Explore & Learn */
+.explore-img img
+{
+    width: 20%;
+}
+.learn h1
+{
+    font-family: poppins;
+    font-size: 45px;
+    font-weight: 700;
+}
+.learn p
+{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.learn-text-margin
+{
+    margin-left: -85px;
+}
+.search img
+{
+    width: 18px;
+    height: 18px;
+}
+.search p
+{
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 700;
+}
+.sea-text h4
+{
+    font-size: 22px;
+}
+
+/* show more */
+.show-more p
+{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.benefit h1
+{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.benefit p
+{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.unique-margin
+{
+    margin-top: 160px;
+}
+
+/* Expert Chefs */
+.expert img
+{
+    width: 90px;
+}
+.expert h3
+{
+    font-size: 30px;
+}
+.expert h4
+{
+    font-size: 25px;
+    /* font-weight: 800!important; */
+}
+.expert p
+{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+/* Other Advantages */
+
+
+.range p
+{
+    font-size: 14px !important;
+    font-weight: 500;
+    
+}
+.other-margin
+{
+    margin-top: 200px;
+}
+
+/* How It Works */
+.work p
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.work h1
+{
+    font-size: 42px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+/* Explore Our Culinary Experts */
+.explore-text p
+{
+    font-family: poppins;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.explore-text h2
+{
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: 700;
+}
+.btn-color
+{
+    background-color: #D27722;
+    font-size: 18px;
+}
+.explore-marggin
+{
+    margin-top: 100px;
+}
+.perfect-margin
+{
+    margin-top: 110px!important;
+}
+.perfect h2
+{
+    font-size: 31px;
+    font-family: poppins;
+}
+.perfect p
+{
+    font-family: poppins;
+    font-size: 15px;
+}
+/* Money-back guarantee */
+.money
+{
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten, #FFDBB8);
+    background: var(--secondary-background, #FFFDF4);
+}
+.money-image h3
+{
+    font-family: poppins;
+    font-size: 30px;
+}
+.money-image p
+{
+    font-family: poppins;
+       
+}
+
+.plateform-text p
+{
+    margin-top: 3px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* Become A Chef */
+.become-margin
+{
+    margin-top: 100px;
+}
+.tick img
+{
+    width: 22px;
+    height: 22px;
+}
+.card-coloor
+{
+    background-color: #D27722;
+}
+
+.button-bak
+{
+    border-radius: 58px;
+    border: 1px solid var(--primary-lighten, #FFDBB8);
+    background: var(--secondary-background, #FFFDF4);
+    color: #D27722;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 10px;
+}
+.margin-start
+{
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.border-card
+{
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten, #FFDBB8);
+}
+
+.lineusingborder{
+    border-left: 2px solid #FFDBB8;
+    height: 40px;
+ }
+.popular-text h1
+{
+    font-size: 33px;
+    font-weight: 700;
+    font-family: poppins;
+
+}
+.popular-text h5
+{
+    font-size: 21px;
+}
+/* footer */
+
+.footer-color
+{
+    border-radius: 24px 24px 0px 0px;
+    background: var(--primary, #D27722);
+}
+
+.footer-color p
+{
+    color: #FFDBB8;
+}
+
+.footer-color h1 , h6
+{
+    color: #FFDBB8;
+}
+
+.footer-color h1
+{
+    font-size: 56px;
+}
+.footer-color h6{
+    font-size: 17px;
+    color: white;
+    font-weight:normal;
+}
+.footer-color a , p
+{
+    font-size: 17px;
+}
+.footer-margin
+{
+    margin-top: 100px;
+}
+
+.spancolor{
+    color: var(--primary, #D27722);
+font-family: Pacifico;
+font-size: 45px;
+font-style: normal;
+font-weight: 300;
+line-height: 113.3%;
+letter-spacing: -2.44px;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: translateY(-10px);
+  }
+/* Responsive */
+@media screen and (max-width: 1200px)
+{
+    .talent::before , .talent::after
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .master-text h1 , p
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .master-text h1 , .benefit h1 , .footer-color h1 , .spancolor
+    {
+        font-size: 40px!important;
+    }
+    .vegan-margin , .talent
+    {
+        margin: 5px;
+    }
+    .talent-margin , .other-margin , .become-margin , .footer-margin , .become-chef , .unique-margin , .explore-marggin , .perfect-margin
+    {
+        margin-top: 20px;
+    }
+    .explore-main , .how-work , .become-margin , .col-card
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .explore-main p , h1 , .vegen-text h4 , .advantage , .explore-text , .become-chef , .buttonn , .become-margin , .perfect , .benefit
+    {
+        text-align: center;
+    }
+    .vegan , .explore-text
+    {
+        margin-top: 10px;
+    }
+    .advantage-image
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .gurantee
+    {
+        margin-top: 60px;
+    }
+    .margin-start
+    {
+        margin-left: 0px !important;
+    }
+    .women img
+    {
+        width: 84%;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px)
+{
+    .buttonn , .talent
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn2
+    {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .master-text h1 , .benefit h1 , .expert h3 , .expert h4 , .footer-color h1 , .spancolor
+    {
+        font-size: 25px!important;
+    }
+    .margin
+    {
+        margin-left: 0px!important;
+    }
+    .rating img , .twenty img
+    {
+        width: 25% !important;
+    }
+    .chefs
+    {
+        margin-top: 10px;
+    }
+    .calander img
+    {
+        height: 22px;
+    }
+}
